@@ -12,11 +12,11 @@
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
-
-<footer class="footer-wrapper">
-  <p class="container">
-    <%= t("footer.powered_by", href: link_to(t("cariguru"), "https://cariguru.co.id", target: "_blank", rel: "noopener")).html_safe %>
-    <% if legal_url.present? %>
+<footer>
+        <section class="footer-wrapper">
+            <div class="container">
+                powered by <span>Cariguru</span>
+                <% if legal_url.present? %>
       <span>
         |
         <%= link_to(t("footer.legal"), legal_url) %>
@@ -28,7 +28,8 @@
         <%= link_to(t("footer.privpolicy"), privpolicy_url)  %>
       </span>
     <% end %>
-  </p>
+            </div>
+        </section>
 </footer>
 
 <%= render "shared/components/cookie_warning" %>
