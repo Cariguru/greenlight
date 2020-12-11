@@ -13,8 +13,8 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<footer class="footer pt-3">
-  <p class="text-center mb-1">
+<footer class="footer-wrapper">
+  <p class="container">
     <%= t("footer.powered_by", href: link_to(t("cariguru"), "https://cariguru.co.id", target: "_blank", rel: "noopener")).html_safe %>
     <% if legal_url.present? %>
       <span>
