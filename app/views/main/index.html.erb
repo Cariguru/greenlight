@@ -13,7 +13,7 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<section class="subheader-wrapper" style="background-image: url('images/bg-header.png')">
+<section class="subheader-wrapper" style="background-image: url(<%= asset_path("bg-header.png")%>)">
         <div class="container">
             <h5 class="title-subheader text-center">We serve an <span>interactive video conference</span> platform
             </h5>
@@ -24,8 +24,7 @@
     </section>
     <section class="featurs-wrapper">
         <div class="container">
-            <%= image_tag("bg-featurs.png")%>
-            <img src="images/bg-featurs.png" class="image-featurs">
+            <%= image_tag("bg-featurs.png", :class: "image-featurs")%>
             <h5 class="heading-featurs text-center">Features</h5>
             <p class="description-heading-featurs text-center">These are our features which you can use </p>
             <div class="row mt-5">
@@ -136,6 +135,8 @@
         </div>
     </section>
     <a href="https://api.whatsapp.com/send?phone=089679249495"  target="_blank" rel="noopener noreferrer">
-        <button class="btn btn-floating-whatsapp" type="button"><img
-                src="images/image-whatsapp.png"></button>
+        <button class="btn btn-floating-whatsapp" type="button">
+          <%= image_tag("image-whatsapp.png")%>
+          <img src="images/image-whatsapp.png">
+        </button>
     </a>
