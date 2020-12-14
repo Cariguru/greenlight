@@ -310,7 +310,7 @@ id_ID:
     search:
       start: Temukan ...
   landing:
-    about: "%{href} adalah antar-muka untuk server BigBlueButton yang memungkinkan Anda membentuk ruang-ruang pertemuan, atau bergabung ke ruang pertemuan lain melalui tautan yang singkat dan nyaman digunakan."
+    about: "Aplikasi video conference interaktif yang dihadirkan oleh Cariguru"
     welcome: Selamat datang di BigBlueButton.
     video: Saksiksan video petunjuk penggunaan Guru Meet
     upgrade: Cara upgrade ke versi 2.0!

@@ -332,7 +332,7 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    about: "Interactive video conference application by Cariguru"
     welcome: Welcome to Cariguru.
     video: Watch our tutorial on cariguru
     upgrade: Show me how to upgrade to 2.0!
